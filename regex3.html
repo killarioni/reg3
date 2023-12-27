@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        var pattern = /[7|8]/;
+
+        var str = "hello 3547";
+
+        const result = pattern.test(str);
+
+        if(result){
+            document.write("ნამდვილად წერია");
+        }
+
+
+
+
+        var pattern = /\s/;
+
+        var str = "hello world";
+
+        const result2 = pattern.test(str);
+        
+        if(result2){
+            document.write("<br> ცარიელი ადგილი არსებობს");
+        }
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
